@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdriver #import selenium webdriver
 
 driver=webdriver.Chrome()
 driver.get('https://uims.cuchd.in/uims/')
