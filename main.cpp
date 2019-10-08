@@ -8,7 +8,9 @@ struct pq
     pq *backaddress;
 };
 pq *front=NULL , *rear=NULL ;
-int enqueue(int value , int priorities ){
+//for enqueuing
+int enqueue(int value , int priorities )
+{
     cout<<"------------enqueing-----------"<<"\n";
     pq *temp=new pq;
 
@@ -31,6 +33,7 @@ int enqueue(int value , int priorities ){
     }
 
 }
+//for display
 int display()
 { cout<<"------------displaying-----------"<<"\n";
     pq *temp=front;
@@ -45,7 +48,7 @@ int display()
     cout<<temp->value<<"-->"<<temp->priority<<"\n";
 
 }
-
+//for dequeuing
 int dequeue(){
     cout<<"------------dequeing-----------"<<"\n";
  int maxi=0;
