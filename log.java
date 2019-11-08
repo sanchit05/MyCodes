@@ -5,7 +5,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
-
+//logger class
 public class LoggerExample {
     private String message;
     private final static Logger logger= LogManager.getLogger(LoggerExample.class);
@@ -26,7 +26,7 @@ public class LoggerExample {
         }
     }
 }
-
+//main class
 public class App 
 {
     public static void main( String[] args )
